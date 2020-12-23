@@ -56,9 +56,9 @@ function App() {
            </div>
            <div className="sana-box">
          <div className="sell">
-           39800{arz.sana.data.p}
+           {arz.sana.data.p}
            </div>
-           <div className="buy">{arz.sana.data.p}39500</div>
+           <div className="buy">{arz.sana.data.p}</div>
            </div>
            </div>
            ) : ('')}
